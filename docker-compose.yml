@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    restart: always
+    container_name: mysql_marvel
+    environment:
+      MYSQL_DATABASE: marvel_app
+      MYSQL_USER: marvel-user
+      MYSQL_PASSWORD: Test2025
+      MYSQL_ROOT_PASSWORD: Challenge2025
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+    ports:
+      - "3308:3306"
