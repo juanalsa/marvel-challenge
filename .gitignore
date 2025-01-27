@@ -5,6 +5,7 @@ target/
 !**/src/test/**/target/
 **/application-*.properties
 !**/application-template.properties
+mysql_data/
 
 ### STS ###
 .apt_generated

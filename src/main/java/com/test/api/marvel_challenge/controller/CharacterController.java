@@ -26,7 +26,7 @@ public class CharacterController {
         return ResponseEntity.ok(characterService.findAll(myPageable, name, comics, series));
     }
 
-    @GetMapping("/characterId")
+    @GetMapping("/{characterId}")
     public ResponseEntity<CharacterDto.CharacterInfoDto> findInfoById(@PathVariable Long characterId) {
         return ResponseEntity.ok(characterService.findInfoById(characterId));
     }
