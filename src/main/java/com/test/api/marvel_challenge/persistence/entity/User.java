@@ -117,7 +117,7 @@ public class User implements UserDetails {
         List<GrantedAuthority> authorities = new ArrayList<>();
         authorities.add(new SimpleGrantedAuthority(role.getAuthority()));
 
-        if (role.getPermissions() != null) return authorities;
+        if (role.getPermissions() == null) return authorities;
 
         role.getPermissions().stream()
                 .forEach(each -> {
