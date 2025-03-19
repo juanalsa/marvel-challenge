@@ -25,7 +25,7 @@ INSERT INTO granted_permission(role_id, permission_id) VALUES(2, 7);
 
 -- Password: hello123456
 INSERT INTO user (username, password, role_id, account_expired, account_locked, credentials_expired, enabled)
-VALUES("jalvarado", "$2y$10$LXT4LXf/mHSWYeYZEg61SujHOXqhqJs5f7W7Wjtc2j/IbqJ6nNitG", 1, false, false, false, true);
+VALUES("jalvarez", "$2y$10$LXT4LXf/mHSWYeYZEg61SujHOXqhqJs5f7W7Wjtc2j/IbqJ6nNitG", 1, false, false, false, true);
 -- Password: aud654321
 INSERT INTO user (username, password, role_id, account_expired, account_locked, credentials_expired, enabled)
 VALUES("cosorio", "$2y$10$SKav5nuF0naKw15aM5DFQOqTaSqbfNx9hBIAfNgt/8olzGkjYUPWS", 2, false, false, false, true);
