@@ -1,4 +1,4 @@
-package com.test.api.marvel_challenge.controller;
+package com.test.api.marvel_challenge.web.controller;
 
 import com.test.api.marvel_challenge.dto.security.LoginRequest;
 import com.test.api.marvel_challenge.dto.security.LoginResponse;

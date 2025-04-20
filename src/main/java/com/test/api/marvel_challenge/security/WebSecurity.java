@@ -1,6 +1,6 @@
 package com.test.api.marvel_challenge.security;
 
-import com.test.api.marvel_challenge.filter.JwtAuthenticationFilter;
+import com.test.api.marvel_challenge.web.filter.JwtAuthenticationFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

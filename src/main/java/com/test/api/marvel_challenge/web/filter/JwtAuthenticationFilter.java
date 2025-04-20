@@ -1,4 +1,4 @@
-package com.test.api.marvel_challenge.filter;
+package com.test.api.marvel_challenge.web.filter;
 
 import com.test.api.marvel_challenge.service.JwtService;
 import io.jsonwebtoken.JwtException;
